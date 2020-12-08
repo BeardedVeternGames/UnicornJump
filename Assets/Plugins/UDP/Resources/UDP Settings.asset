@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: -107981364, guid: 741884b37a0234d86bb740e55081cd5f, type: 3}
   m_Name: UDP Settings
   m_EditorClassIdentifier: 
-  UnityProjectID: 5bc8a4b0-974a-4f3e-bde4-53a2b017d82b
+  UnityProjectID: e0e03264-9f81-4df2-861c-96825920da1a
   UnityClientID: D1p5WrMWcEYzGMX8pnBjXw
   UnityClientKey: VJBbuZsu3ILfNBHbpGDejbyz5ZkLhdfTdQ9qwv3ejlw
   UnityClientRSAPublicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkHX6HK+NAPPmKc34+WyfoVY8Bsbu2cilebXg7Fq+nLiOvVjyj8ys546L6wQEeY9JaX40HD8S+kQJZwH76ZoMeNagUS9myvth3yN0iU196sMFDGbSDkG2b2lnrxMf2zJOpve4o6j/iPXQteI7QbmtpT9ka0mhaKs+TIczJMIJt5PaWhKs8urpm8PMBszk1Fxo+MSUMsfhEuI8XHjiKGLFjHLp5vsq03zzZdnedQ+1E64UGHZqAFU4B30ulO41AxfKluzRuU9q9pFAHW6HzPlGtb2VfKU5DSFx1B5/PPuxdzLKCYphlX/tZmmc9jgHuZdIXQNXAPyd4TsUkVmW+BZRhwIDAQAB
-  AppName: 6a172da5-3b1d-4263-bdcd-e6985a4e674d
+  AppName: Unicorn Jump
   AppSlug: 6fc3888a-e6f0-4606-b60b-57a70f82c23f
   AppItemId: 5fc56251260d0b00202e8590
   Permission: 

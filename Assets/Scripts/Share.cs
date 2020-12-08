@@ -22,7 +22,7 @@ private IEnumerator TakeScreenshotAndShare()
 {
 	yield return new WaitForEndOfFrame();
 
-	Texture2D ss = new Texture2D( Screen.width, Screen.height, TextureFormat.RGB24, false );
+	/*Texture2D ss = new Texture2D( Screen.width, Screen.height, TextureFormat.RGB24, false );
 	ss.ReadPixels( new Rect( 0, 0, Screen.width, Screen.height ), 0, 0 );
 	ss.Apply();
 
@@ -30,11 +30,14 @@ private IEnumerator TakeScreenshotAndShare()
 	File.WriteAllBytes( filePath, ss.EncodeToPNG() );
 
 	// To avoid memory leaks
-	Destroy( ss );
+	Destroy( ss );*/
 
-	new NativeShare().AddFile( filePath )
-		.SetSubject( "Unicorn Jump" ).SetText( shareMessage )
+	if(Application.platform==RuntimePlatform.Android){
+	new NativeShare()
+		.SetSubject( "https://play.google.com/store/apps/details?id=com.beardedveterangames.UnicornJump" ).SetText( shareMessage )
 		.SetCallback( ( result, shareTarget ) => Debug.Log( "Share result: " + result + ", selected app: " + shareTarget ) )
 		.Share();
+	}
+	
 }
 }

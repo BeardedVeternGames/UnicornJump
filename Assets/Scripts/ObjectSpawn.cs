@@ -53,13 +53,13 @@ public class ObjectSpawn : MonoBehaviour  {
         
         
         
-        if(gameTime >= 200f && spawnSpeedMin >=0.5f){
+        if(gameTime >= 40f && spawnSpeedMin >=0.5f){
             if(spawnSpeedMin ==0.5f){
                 return;
             }
             gameTime = 0f;
-            spawnSpeedMin=spawnSpeedMin-0.5f;
-            spawnSpeedMax=spawnSpeedMax-0.5f;
+            spawnSpeedMin=spawnSpeedMin-0.1f;
+            spawnSpeedMax=spawnSpeedMax-0.1f;
             Debug.Log(spawnSpeedMin+" to "+spawnSpeedMax);
 
 
